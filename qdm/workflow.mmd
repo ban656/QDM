@@ -1,0 +1,24 @@
+flowchart TD
+    A["Open modeling problem"] --> B["Initialize problem state"]
+    B --> C["Question-driven clarification"]
+    C --> D["Update feature table"]
+    D --> E{"Clarity gate ready?"}
+    E -- "No" --> C
+    E -- "Yes" --> F["Tree-based modeling synthesis"]
+    F --> G["Unified modeling blueprint"]
+    G --> H["Executable implementation"]
+    H --> I["Human-anchored blind evaluation"]
+    I --> J["Gap diagnosis and revision"]
+
+    C --> C1["Ask next narrow question"]
+    C --> C2["Search facts or infer gaps"]
+    C --> C3["Record algorithm modules"]
+
+    F --> F1["Physical/background node"]
+    F --> F2["Variable/constraint node"]
+    F --> F3["Formula/data/validation nodes"]
+    F --> F4["Algorithm fusion"]
+
+    I --> I1["Compare against strong human papers"]
+    I --> I2["Measure structural fit gaps"]
+

@@ -1,0 +1,4 @@
+# qdm/ and scripts/ use only the Python standard library (3.10+).
+# evaluation/ and controlled/ call model APIs:
+openai==2.36.0
+pytest==9.1.1
