@@ -1,0 +1,11 @@
+problem,question_rounds,model_calls,questioner_model_rounds
+2021_C,5,29,deepseek-v4-flash:5
+2021_F,20,69,deepseek-v4-flash:20
+2022_A,11,41,deepseek-v4-flash:6;gpt-5:5
+2022_C,11,42,deepseek-v4-flash:11
+2023_A,11,50,gpt-5:11;gpt-5.5:2
+2023_C,4,19,deepseek-v4-flash:4
+2023_D,4,19,deepseek-v4-flash:4
+2024_B,10,47,deepseek-v4-flash:10
+2024_D,5,21,deepseek-v4-flash:6
+2025_A,11,61,gpt-5:14
